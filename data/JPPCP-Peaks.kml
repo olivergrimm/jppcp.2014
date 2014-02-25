@@ -5,7 +5,7 @@
 		<IconStyle>
 			<Icon>
 				<name>stylegreen</name>
-				<href>./icon/green.png</href>
+				<href>green.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
@@ -13,7 +13,7 @@
 		<IconStyle>
 			<Icon>
 				<name>stylered</name>
-				<href>./icon/red.png</href>
+				<href>red.png</href>
 			</Icon>
 		</IconStyle>
 	</Style>
