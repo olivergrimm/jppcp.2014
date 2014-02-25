@@ -14,7 +14,7 @@ map.addLayer(lyr1);
 var vector1 = new ol.layer.Vector({
   source: new ol.source.KML({
     projection: 'EPSG:21781',
-    url: '../data/JuraparkAG.kml'
+    url: 'data/JuraparkAG.kml'
   })
 });
 map.addLayer(vector1);
@@ -22,7 +22,7 @@ map.addLayer(vector1);
 var vector2 = new ol.layer.Vector({
   source: new ol.source.KML({
     projection: 'EPSG:21781',
-    url: '../data/JPPCP-Peaks.kml',
+    url: 'data/JPPCP-Peaks.kml',
 	tooltip: 'Hello, world!'
   })
 });
