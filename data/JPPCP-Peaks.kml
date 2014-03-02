@@ -20,19 +20,19 @@
   <Placemark>
 	<name>Acheberg</name>
 	<description></description>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">1</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140302</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.044743475521221,47.427301228131689</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Hombergegg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">2</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">2010302</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.06627805361776,47.429381744655124</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -56,19 +56,19 @@
   </Placemark>
   <Placemark>
 	<name>Gross Wolf</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">5</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140302</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.043715782564693,47.430523844007759</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Chli Wolf</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">6</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140302</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.042498167048054,47.434075726893276</coordinates></Point></MultiGeometry>
   </Placemark>

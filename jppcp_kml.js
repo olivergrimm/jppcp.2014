@@ -1,16 +1,42 @@
+var gpsstyle = {
+  'Point': [new ol.style.Style({
+    image: new ol.style.Circle({
+      fill: new ol.style.Fill({
+        color: 'rgba(255,255,0,0.4)'
+      }),
+      radius: 5,
+      stroke: new ol.style.Stroke({
+        color: '#ff0',
+        width: 1
+      })
+    })
+  })],
+  'LineString': [new ol.style.Style({
+    stroke: new ol.style.Stroke({
+      color: '#f00',
+      width: 3
+    })
+  })],
+  'MultiLineString': [new ol.style.Style({
+    stroke: new ol.style.Stroke({
+      color: '#0f0',
+      width: 3
+    })
+  })]
+};
+
 var raster = new ol.layer.Tile({
   source: new ol.source.BingMaps({
     imagerySet: 'Aerial',
-    //key: 'ArtKw7Y9TNFeUql4ZdTpVuEhIOw0cDuLDDStcNt5v8nblauZ_MO63Gwt6Cn6-UU-'
-key: 'AvFPnBPpgMk5e4WoIwX91jb0awMF1woIGZ5wphhdyFPG0oCtx7XFxSqCzW5ummZm'
+    //key: 'ArtKw7Y9TNFeUql4ZdTpVuEhIOw0cDuLDDStcNt5v8nblauZ_MO63Gwt6Cn6-UU-'  //dev key
+	key: 'AvFPnBPpgMk5e4WoIwX91jb0awMF1woIGZ5wphhdyFPG0oCtx7XFxSqCzW5ummZm' //prod key
 	})
 });
 
 var vector1 = new ol.layer.Vector({
   source: new ol.source.KML({
     projection: 'EPSG:3857',
-    url: 'data/JuraparkAG.kml',
-	style: 'color=blue'
+    url: 'data/JuraparkAG.kml'
   })
 });
 
@@ -21,8 +47,18 @@ var vector2 = new ol.layer.Vector({
   })
 });
 
+var gpx1 = new ol.layer.Vector({
+  source: new ol.source.GPX({
+    projection: 'EPSG:3857',
+    url: 'data/tracs/trac20140302.gpx'
+  }),
+  style: function(feature, resolution) {
+    return gpsstyle[feature.getGeometry().getType()];
+  }
+});
+
 var map = new ol.Map({
-  layers: [raster,vector1,vector2],
+  layers: [raster,vector1,vector2,gpx1],
   renderer: 'canvas',
   target: document.getElementById('map'),
   view: new ol.View2D({
