@@ -1,30 +1,31 @@
-var gpsstyle = {
-  'Point': [new ol.style.Style({
-    image: new ol.style.Circle({
-      fill: new ol.style.Fill({
-        color: 'rgba(255,255,0,0.4)'
-      }),
-      radius: 5,
-      stroke: new ol.style.Stroke({
-        color: '#ff0',
-        width: 1
-      })
-    })
-  })],
+var gpsstyle1 = {
   'LineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: '#f00',
+      color: '##0080ff',
       width: 3
     })
   })],
   'MultiLineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: '#0f0',
+      color: '##0080ff',
       width: 3
     })
   })]
 };
-
+var gpsstyle2 = {
+  'LineString': [new ol.style.Style({
+    stroke: new ol.style.Stroke({
+      color: '#ff00ff',
+      width: 3
+    })
+  })],
+  'MultiLineString': [new ol.style.Style({
+    stroke: new ol.style.Stroke({
+      color: '#ff00ff',
+      width: 3
+    })
+  })]
+};
 var raster = new ol.layer.Tile({
   source: new ol.source.BingMaps({
     imagerySet: 'Aerial',
@@ -53,7 +54,7 @@ var gpx1 = new ol.layer.Vector({
     url: 'data/tracs/trac20140302.gpx'
   }),
   style: function(feature, resolution) {
-    return gpsstyle[feature.getGeometry().getType()];
+    return gpsstyle1[feature.getGeometry().getType()];
   }
 });
 var gpx2 = new ol.layer.Vector({
@@ -62,7 +63,7 @@ var gpx2 = new ol.layer.Vector({
     url: 'data/tracs/trac20140309.gpx'
   }),
   style: function(feature, resolution) {
-    return gpsstyle[feature.getGeometry().getType()];
+    return gpsstyle2[feature.getGeometry().getType()];
   }
 });
 var map = new ol.Map({
