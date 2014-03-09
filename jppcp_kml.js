@@ -56,7 +56,7 @@ var gpx1 = new ol.layer.Vector({
     return gpsstyle[feature.getGeometry().getType()];
   }
 });
-vvar gpx2 = new ol.layer.Vector({
+var gpx2 = new ol.layer.Vector({
   source: new ol.source.GPX({
     projection: 'EPSG:3857',
     url: 'data/tracs/trac20140309.gpx'
