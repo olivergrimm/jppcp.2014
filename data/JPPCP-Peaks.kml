@@ -38,7 +38,7 @@
   </Placemark>
   <Placemark>
 	<name>Gisliflue</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">3</SimpleData>
 		<SimpleData name="catched">F</SimpleData>
@@ -155,7 +155,7 @@
   </Placemark>
   <Placemark>
 	<name>Ruine Schenkenberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">16</SimpleData>
 		<SimpleData name="catched">F</SimpleData>

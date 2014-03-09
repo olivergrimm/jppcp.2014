@@ -56,9 +56,17 @@ var gpx1 = new ol.layer.Vector({
     return gpsstyle[feature.getGeometry().getType()];
   }
 });
-
+vvar gpx2 = new ol.layer.Vector({
+  source: new ol.source.GPX({
+    projection: 'EPSG:3857',
+    url: 'data/tracs/trac20140309.gpx'
+  }),
+  style: function(feature, resolution) {
+    return gpsstyle[feature.getGeometry().getType()];
+  }
+});
 var map = new ol.Map({
-  layers: [raster,vector1,vector2,gpx1],
+  layers: [raster,vector1,vector2,gpx1,gpx2],
   renderer: 'canvas',
   target: document.getElementById('map'),
   view: new ol.View2D({
