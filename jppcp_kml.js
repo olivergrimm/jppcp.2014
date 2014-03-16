@@ -26,20 +26,6 @@ var gpsstyle2 = {
     })
   })]
 };
-var gpsstyle3 = {
-  'LineString': [new ol.style.Style({
-    stroke: new ol.style.Stroke({
-      color: '#ff00ff',
-      width: 3
-    })
-  })],
-  'MultiLineString': [new ol.style.Style({
-    stroke: new ol.style.Stroke({
-      color: '#ff00ff',
-      width: 3
-    })
-  })]
-};
 var raster = new ol.layer.Tile({
   source: new ol.source.BingMaps({
     imagerySet: 'Aerial',
@@ -82,11 +68,11 @@ var gpx2 = new ol.layer.Vector({
 });
 var gpx3 = new ol.layer.Vector({
   source: new ol.source.GPX({
-    projection: 'EPSG:3857',
+    projection: 'EPSG:4326',
     url: 'data/tracs/trac20140316.gpx'
   }),
   style: function(feature, resolution) {
-    return gpsstyle3[feature.getGeometry().getType()];
+    return gpsstyle2[feature.getGeometry().getType()];
   }
 });
 var map = new ol.Map({
