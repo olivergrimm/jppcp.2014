@@ -32,7 +32,7 @@
 	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">2</SimpleData>
-		<SimpleData name="catched">2010302</SimpleData>
+		<SimpleData name="catched">20140302</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.06627805361776,47.429381744655124</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -41,7 +41,7 @@
 	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">3</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140309</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.109257956104818,47.425697770049354</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -128,10 +128,10 @@
   </Placemark>
   <Placemark>
 	<name>Strihe (West)</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">13</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140316</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.029811894681464,47.45183446837251</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -158,7 +158,7 @@
 	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">16</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140309</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.10122171456495,47.441995745121332</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -425,10 +425,10 @@
   </Placemark>
   <Placemark>
 	<name>Ruine Urgiz</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">46</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140316</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.052352655325455,47.461165282488565</coordinates></Point></MultiGeometry>
   </Placemark>
