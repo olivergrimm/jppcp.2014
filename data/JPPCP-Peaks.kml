@@ -74,10 +74,10 @@
   </Placemark>
   <Placemark>
 	<name>Stellichopf</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">7</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140330</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.962173304839629,47.431033092433573</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -371,10 +371,10 @@
   </Placemark>
   <Placemark>
 	<name>Geissflue</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">40</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140330</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.963704295385118,47.422483605726008</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -559,20 +559,20 @@
       <MultiGeometry><Point><coordinates>7.973121609463542,47.491171353178565</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Schn?pfelflue</name>
-	<styleUrl>#stylered</styleUrl>
+	<name>Schnüpfelflue</name>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">63</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140330</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.949952944593262,47.431752513818381</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Ruine Alt Kienberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">64</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140330</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.949133610184027,47.438400753120121</coordinates></Point></MultiGeometry>
   </Placemark>
