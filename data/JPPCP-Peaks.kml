@@ -560,10 +560,10 @@
   </Placemark>
   <Placemark>
 	<name>Schnüpfelflue</name>
-	<styleUrl>#stylegreen</styleUrl>
+	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">63</SimpleData>
-		<SimpleData name="catched">20140330</SimpleData>
+		<SimpleData name="catched">F</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.949952944593262,47.431752513818381</coordinates></Point></MultiGeometry>
   </Placemark>
