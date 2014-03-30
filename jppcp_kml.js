@@ -90,7 +90,7 @@ var gpx3 = new ol.layer.Vector({
 });
 var gpx4 = new ol.layer.Vector({
   source: new ol.source.GPX({
-    projection: 'EPSG:4326',
+    projection: 'EPSG:3857',
     url: 'data/tracs/trac20140330.gpx'
   }),
   style: function(feature, resolution) {
