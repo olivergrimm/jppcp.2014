@@ -1,13 +1,13 @@
 var gpsstyle1 = {
   'LineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: '##0080ff',
+      color: 'violet',
       width: 3
     })
   })],
   'MultiLineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: '##0080ff',
+      color: 'violet',
       width: 3
     })
   })]
@@ -15,13 +15,13 @@ var gpsstyle1 = {
 var gpsstyle2 = {
   'LineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: '#ff00ff',
+      color: 'violet',
       width: 3
     })
   })],
   'MultiLineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: '#ff00ff',
+      color: 'violet',
       width: 3
     })
   })]
@@ -29,13 +29,13 @@ var gpsstyle2 = {
 var gpsstyle3 = {
   'LineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: 'blue',
+      color: 'violet',
       width: 3
     })
   })],
   'MultiLineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: 'blue',
+      color: 'violet',
       width: 3
     })
   })]
@@ -61,7 +61,6 @@ var vector2 = new ol.layer.Vector({
     url: 'data/JPPCP-Peaks.kml'
   })
 });
-
 var gpx1 = new ol.layer.Vector({
   source: new ol.source.GPX({
     projection: 'EPSG:3857',
@@ -77,7 +76,7 @@ var gpx2 = new ol.layer.Vector({
     url: 'data/tracs/trac20140309.gpx'
   }),
   style: function(feature, resolution) {
-    return gpsstyle2[feature.getGeometry().getType()];
+    return gpsstyle1[feature.getGeometry().getType()];
   }
 });
 var gpx3 = new ol.layer.Vector({
@@ -86,7 +85,7 @@ var gpx3 = new ol.layer.Vector({
     url: 'data/tracs/trac20140316.gpx'
   }),
   style: function(feature, resolution) {
-    return gpsstyle3[feature.getGeometry().getType()];
+    return gpsstyle1[feature.getGeometry().getType()];
   }
 });
 var gpx4 = new ol.layer.Vector({
@@ -95,7 +94,7 @@ var gpx4 = new ol.layer.Vector({
     url: 'data/tracs/trac20140330.gpx'
   }),
   style: function(feature, resolution) {
-    return gpsstyle3[feature.getGeometry().getType()];
+    return gpsstyle1[feature.getGeometry().getType()];
   }
 });
 var map = new ol.Map({
