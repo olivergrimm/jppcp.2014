@@ -559,7 +559,7 @@
       <MultiGeometry><Point><coordinates>7.973121609463542,47.491171353178565</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Schnüpfelflue</name>
+	<name>Schnäpfelflue</name>
 	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">63</SimpleData>
