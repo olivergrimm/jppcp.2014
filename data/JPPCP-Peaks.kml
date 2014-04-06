@@ -205,7 +205,7 @@
 		<SimpleData name="PID">66</SimpleData>
 		<SimpleData name="catched">20140406</SimpleData>
 	</SchemaData></ExtendedData>
-      <MultiGeometry><Point><coordinates>8.118624214841507,47.464344313100102</coordinates></Point></MultiGeometry>
+      <MultiGeometry><Point><coordinates>8.115624214841507,47.464344313100102</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Letzi</name>
