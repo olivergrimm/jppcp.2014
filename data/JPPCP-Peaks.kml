@@ -199,6 +199,15 @@
       <MultiGeometry><Point><coordinates>8.112624214841507,47.463344313100102</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
+	<name>Zeihergutsch</name>
+	<styleUrl>#stylegreen</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#JPPCP">
+		<SimpleData name="PID">66</SimpleData>
+		<SimpleData name="catched">20140406</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.132624214841507,47.473344313100102</coordinates></Point></MultiGeometry>
+  </Placemark>
+  <Placemark>
 	<name>Letzi</name>
 	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
