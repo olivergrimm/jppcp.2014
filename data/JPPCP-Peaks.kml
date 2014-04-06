@@ -207,6 +207,24 @@
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.115624214841507,47.464344313100102</coordinates></Point></MultiGeometry>
   </Placemark>
+   <Placemark>
+	<name>Sommerholde</name>
+	<styleUrl>#stylered</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#JPPCP">
+		<SimpleData name="PID">66</SimpleData>
+		<SimpleData name="catched">F</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.01732,47.43632</coordinates></Point></MultiGeometry>
+  </Placemark> 
+   <Placemark>
+	<name>Linnerberg</name>
+	<styleUrl>#stylered</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#JPPCP">
+		<SimpleData name="PID">67</SimpleData>
+		<SimpleData name="catched">F</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.12474,47.46296</coordinates></Point></MultiGeometry>
+  </Placemark>  
   <Placemark>
 	<name>Letzi</name>
 	<styleUrl>#stylered</styleUrl>
