@@ -145,7 +145,7 @@
       <MultiGeometry><Point><coordinates>8.080712390960699,47.441489948221367</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>W?rz</name>
+	<name>Würz</name>
 	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">15</SimpleData>
@@ -191,10 +191,10 @@
   </Placemark>
   <Placemark>
 	<name>Ibergflue</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">20</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140406</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.112624214841507,47.463344313100102</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -235,7 +235,7 @@
       <MultiGeometry><Point><coordinates>8.115424603935462,47.528382896280668</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>B?rerhorn</name>
+	<name>Bürerhorn</name>
 	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">25</SimpleData>
@@ -433,20 +433,20 @@
       <MultiGeometry><Point><coordinates>8.052352655325455,47.461165282488565</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Widr?k</name>
-	<styleUrl>#stylered</styleUrl>
+	<name>Widräk</name>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">47</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140406</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.102022907925523,47.483466406111624</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Barnig</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">48</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140406</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.113303767140991,47.485841782851509</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -460,7 +460,7 @@
       <MultiGeometry><Point><coordinates>8.022041177978931,47.478283666332331</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Chornbergh?hi</name>
+	<name>Chornberghöhi</name>
 	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">50</SimpleData>
@@ -469,7 +469,7 @@
       <MultiGeometry><Point><coordinates>8.017298348461795,47.489045739005782</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Eichb?el</name>
+	<name>Eichbüel</name>
 	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">51</SimpleData>
@@ -523,7 +523,7 @@
       <MultiGeometry><Point><coordinates>7.857157353515807,47.534090150017683</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Sch?nenberg</name>
+	<name>Schönenberg</name>
 	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">57</SimpleData>
