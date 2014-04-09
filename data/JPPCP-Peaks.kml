@@ -110,10 +110,10 @@
   </Placemark>
   <Placemark>
 	<name>Strihe</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">11</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140409</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.036906253345505,47.449372642465292</coordinates></Point></MultiGeometry>
   </Placemark>

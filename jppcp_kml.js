@@ -12,34 +12,6 @@ var gpsstyle1 = {
     })
   })]
 };
-var gpsstyle2 = {
-  'LineString': [new ol.style.Style({
-    stroke: new ol.style.Stroke({
-      color: 'violet',
-      width: 3
-    })
-  })],
-  'MultiLineString': [new ol.style.Style({
-    stroke: new ol.style.Stroke({
-      color: 'violet',
-      width: 3
-    })
-  })]
-};
-var gpsstyle3 = {
-  'LineString': [new ol.style.Style({
-    stroke: new ol.style.Stroke({
-      color: 'violet',
-      width: 3
-    })
-  })],
-  'MultiLineString': [new ol.style.Style({
-    stroke: new ol.style.Stroke({
-      color: 'violet',
-      width: 3
-    })
-  })]
-};
 var raster = new ol.layer.Tile({
   source: new ol.source.BingMaps({
     imagerySet: 'Aerial',
@@ -106,8 +78,17 @@ var gpx5 = new ol.layer.Vector({
     return gpsstyle1[feature.getGeometry().getType()];
   }
 });
+var gpx6 = new ol.layer.Vector({
+  source: new ol.source.GPX({
+    projection: 'EPSG:3857',
+    url: 'data/tracs/trac20140409.gpx'
+  }),
+  style: function(feature, resolution) {
+    return gpsstyle1[feature.getGeometry().getType()];
+  }
+});
 var map = new ol.Map({
-  layers: [raster,vector1,vector2,gpx1,gpx2,gpx3,gpx4,gpx5],
+  layers: [raster,vector1,vector2,gpx1,gpx2,gpx3,gpx4,gpx5,gpx6],
   renderer: 'canvas',
   target: document.getElementById('map'),
   view: new ol.View2D({
