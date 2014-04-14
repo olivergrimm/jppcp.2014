@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document><Folder><name>JPPCP</name>
 	<Style id="stylegreen">
@@ -82,29 +82,29 @@
       <MultiGeometry><Point><coordinates>7.962173304839629,47.431033092433573</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>R?bnen</name>
-	<styleUrl>#stylered</styleUrl>
+	<name>Rübnen</name>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">8</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140413</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.982881509303486,47.438271778119443</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Burgfluh</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">9</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140413</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.979440337437023,47.446177711839667</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Ruine Heidegg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">10</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140413</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.974685861702679,47.437643275693752</coordinates></Point></MultiGeometry>
   </Placemark>
