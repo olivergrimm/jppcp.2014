@@ -146,10 +146,10 @@
   </Placemark>
   <Placemark>
 	<name>Würz</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">15</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140501</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.077672119860123,47.446477974474661</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -434,10 +434,10 @@
   </Placemark>
   <Placemark>
 	<name>Hinterlinde</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">44</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140501</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.076258539170007,47.451517931725547</coordinates></Point></MultiGeometry>
   </Placemark>
