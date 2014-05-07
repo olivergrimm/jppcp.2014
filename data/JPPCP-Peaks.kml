@@ -586,8 +586,8 @@
       <MultiGeometry><Point><coordinates>7.973121609463542,47.491171353178565</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Schnäpfelgreen</name>
-	<styleUrl>#stylered</styleUrl>
+	<name>Schnäpfelflue</name>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">63</SimpleData>
 		<SimpleData name="catched">20140506</SimpleData>
