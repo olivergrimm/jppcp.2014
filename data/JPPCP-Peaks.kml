@@ -487,8 +487,8 @@
       <MultiGeometry><Point><coordinates>8.113303767140991,47.485841782851509</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Chrongreen</name>
-	<styleUrl>#stylered</styleUrl>
+	<name>Chronberg</name>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">49</SimpleData>
 		<SimpleData name="catched">20140509</SimpleData>
