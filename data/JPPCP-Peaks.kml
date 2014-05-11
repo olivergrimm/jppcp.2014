@@ -352,14 +352,23 @@
       <MultiGeometry><Point><coordinates>8.096128287800088,47.519743071559418</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>F?rberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<name>Fürberg</name>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">35</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140509</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.999653824623529,47.485169612151104</coordinates></Point></MultiGeometry>
   </Placemark>
+   <Placemark>
+	<name>Rüedisberg</name>
+	<styleUrl>#stylegreen</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#JPPCP">
+		<SimpleData name="PID">101</SimpleData>
+		<SimpleData name="catched">20140509</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.01181,47.47540</coordinates></Point></MultiGeometry>
+  </Placemark>  
   <Placemark>
 	<name>Tiersteiberg</name>
 	<styleUrl>#stylered</styleUrl>
@@ -478,20 +487,20 @@
       <MultiGeometry><Point><coordinates>8.113303767140991,47.485841782851509</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
-	<name>Chronberg</name>
+	<name>Chrongreen</name>
 	<styleUrl>#stylered</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">49</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140509</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.022041177978931,47.478283666332331</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Chornberghöhi</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">50</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140509</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.017298348461795,47.489045739005782</coordinates></Point></MultiGeometry>
   </Placemark>
