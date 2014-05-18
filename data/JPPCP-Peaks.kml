@@ -262,47 +262,56 @@
       <MultiGeometry><Point><coordinates>8.115424603935462,47.528382896280668</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
+	<name>Beiberg</name>
+	<styleUrl>#stylegreen</styleUrl>
+	<ExtendedData><SchemaData schemaUrl="#JPPCP">
+		<SimpleData name="PID">74</SimpleData>
+		<SimpleData name="catched">20140518</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Point><coordinates>8.17140, 47.53531</coordinates></Point></MultiGeometry>
+  </Placemark> 
+  <Placemark>
 	<name>Bürerhorn</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">25</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140518</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.151415018987311,47.5335206480962</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Hottwilerhorn</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">26</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140518</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.163511165062467,47.535500992434173</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Geissberg Chameren</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">27</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140518</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.168508673712166,47.529351356778079</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Ruine Besserstein</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">28</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140518</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.211136262224931,47.524534131318951</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Rotbergegg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">29</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140518</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.199676048104884,47.544716153766615</coordinates></Point></MultiGeometry>
   </Placemark>
