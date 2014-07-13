@@ -13,11 +13,12 @@ var gpsstyle1 = {
   })]
 };
 var raster = new ol.layer.Tile({
-  source: new ol.source.BingMaps({
+  /*source: new ol.source.BingMaps({
     imagerySet: 'Aerial',
     //key: 'ArtKw7Y9TNFeUql4ZdTpVuEhIOw0cDuLDDStcNt5v8nblauZ_MO63Gwt6Cn6-UU-'  //dev key
 	key: 'AvFPnBPpgMk5e4WoIwX91jb0awMF1woIGZ5wphhdyFPG0oCtx7XFxSqCzW5ummZm' //prod key
-	})
+	})*/
+	source: new ol.source.OSM("OSM")
 });
 
 var vector1 = new ol.layer.Vector({
