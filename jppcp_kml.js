@@ -1,13 +1,13 @@
 var gpsstyle1 = {
   'LineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: 'violet',
+      color: 'yellow',
       width: 3
     })
   })],
   'MultiLineString': [new ol.style.Style({
     stroke: new ol.style.Stroke({
-      color: 'violet',
+      color: 'yellow',
       width: 3
     })
   })]
