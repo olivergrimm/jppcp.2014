@@ -380,10 +380,10 @@
   </Placemark>  
   <Placemark>
 	<name>Tiersteiberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">36</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140713</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.959243272551298,47.498455242197636</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -398,19 +398,19 @@
   </Placemark>
   <Placemark>
 	<name>Refugium Horn</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">38</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140713</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.958996750743005,47.482671868105903</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Reichberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">39</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140713</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.965667604147379,47.465558109728022</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -578,28 +578,28 @@
   </Placemark>
   <Placemark>
 	<name>Weegestetter Flue</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">60</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140713</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.937608300164342,47.486121637857359</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Fazedelle</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">61</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140713</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.948663062908166,47.489871527371854</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Ruine Alt Homberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">62</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140713</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.973121609463542,47.491171353178565</coordinates></Point></MultiGeometry>
   </Placemark>
