@@ -17,6 +17,14 @@
 			</Icon>
 		</IconStyle>
 	</Style>
+	<Style id="stylenew">
+		<IconStyle>
+			<Icon>
+				<name>stylenew</name>
+				<href>pink.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
   <Placemark>
 	<name>Acheberg</name>
 	<description></description>
@@ -227,7 +235,7 @@
   </Placemark>  
   <Placemark>
 	<name>Letzi</name>
-	<styleUrl>#stylegreen</styleUrl>
+	<styleUrl>#stylenew</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">21</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
@@ -236,7 +244,7 @@
   </Placemark>
   <Placemark>
 	<name>Hoomel</name>
-	<styleUrl>#stylegreen</styleUrl>
+	<styleUrl>#stylenew</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">22</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
@@ -245,7 +253,7 @@
   </Placemark>
   <Placemark>
 	<name>Dimmis</name>
-	<styleUrl>#stylegreen</styleUrl>
+	<styleUrl>#stylenew</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">23</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
@@ -254,7 +262,7 @@
   </Placemark>
   <Placemark>
 	<name>Chreisacherturm</name>
-	<styleUrl>#stylegreen</styleUrl>
+	<styleUrl>#stylenew</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">24</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
@@ -353,7 +361,7 @@
   </Placemark>
   <Placemark>
 	<name>Marchwald</name>
-	<styleUrl>#stylegreen</styleUrl>
+	<styleUrl>#stylenew</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">34</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
