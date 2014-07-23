@@ -133,8 +133,17 @@ var gpx11 = new ol.layer.Vector({
     return gpsstyle1[feature.getGeometry().getType()];
   }
 });
+var gpx12 = new ol.layer.Vector({
+  source: new ol.source.GPX({
+    projection: 'EPSG:3857',
+    url: 'data/tracs/runtastic_20140723_1643_Mountainbiking.gpx'
+  }),
+  style: function(feature, resolution) {
+    return gpsstyle1[feature.getGeometry().getType()];
+  }
+});
 var map = new ol.Map({
-  layers: [raster,vector1,vector2,gpx1,gpx2,gpx3,gpx4,gpx5,gpx6,gpx7,gpx8,gpx9,gpx10,gpx11],
+  layers: [raster,vector1,vector2,gpx1,gpx2,gpx3,gpx4,gpx5,gpx6,gpx7,gpx8,gpx9,gpx10,gpx11,gpx12],
   renderer: 'canvas',
   target: document.getElementById('map'),
   view: new ol.View2D({
