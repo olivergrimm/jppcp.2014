@@ -55,10 +55,10 @@
   </Placemark>
   <Placemark>
 	<name>Wasserflue</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylenew</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">4</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140914</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.024648827479373,47.430031049740002</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -190,10 +190,10 @@
   </Placemark>
   <Placemark>
 	<name>Dreierberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylenew</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">19</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20140914</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.114192787291335,47.458113056011598</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -235,7 +235,7 @@
   </Placemark>  
   <Placemark>
 	<name>Letzi</name>
-	<styleUrl>#stylenew</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">21</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
@@ -244,7 +244,7 @@
   </Placemark>
   <Placemark>
 	<name>Hoomel</name>
-	<styleUrl>#stylenew</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">22</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
@@ -253,7 +253,7 @@
   </Placemark>
   <Placemark>
 	<name>Dimmis</name>
-	<styleUrl>#stylenew</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">23</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
@@ -262,7 +262,7 @@
   </Placemark>
   <Placemark>
 	<name>Chreisacherturm</name>
-	<styleUrl>#stylenew</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">24</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
@@ -361,7 +361,7 @@
   </Placemark>
   <Placemark>
 	<name>Marchwald</name>
-	<styleUrl>#stylenew</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">34</SimpleData>
 		<SimpleData name="catched">20140723</SimpleData>
