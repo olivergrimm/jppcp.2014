@@ -544,7 +544,7 @@
 	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">53</SimpleData>
-		<SimpleData name="catched">20141019/SimpleData>
+		<SimpleData name="catched">20141019</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.902353140371256,47.541056619908886</coordinates></Point></MultiGeometry>
   </Placemark>
