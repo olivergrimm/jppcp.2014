@@ -397,10 +397,10 @@
   </Placemark>
   <Placemark>
 	<name>Zeinigerberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">37</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141019</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.891235031050978,47.540676187875412</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -523,64 +523,64 @@
   </Placemark>
   <Placemark>
 	<name>Eichbüel</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">51</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141019</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.969479365365749,47.523014459941578</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Looberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">52</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141019</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.915770534812146,47.530142194767961</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Chriesiberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">53</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141019/SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.902353140371256,47.541056619908886</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Garwiden</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">54</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141019</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.904538817556724,47.533421456135756</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Rohrchopf</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">55</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141019</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.893474659794585,47.514307756423676</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Chlei Sunneberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">56</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141019</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.857157353515807,47.534090150017683</coordinates></Point></MultiGeometry>
   </Placemark>
   <Placemark>
 	<name>Schönenberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">57</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141019</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>7.862604066130322,47.527969254676812</coordinates></Point></MultiGeometry>
   </Placemark>
