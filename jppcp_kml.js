@@ -160,6 +160,15 @@ var gpx14 = new ol.layer.Vector({
     return gpsstyle1[feature.getGeometry().getType()];
   }
 });
+var gpx15 = new ol.layer.Vector({
+  source: new ol.source.GPX({
+    projection: 'EPSG:3857',
+    url: 'data/tracs/runtastic_20141019_1411_Mountainbiking.gpx'
+  }),
+  style: function(feature, resolution) {
+    return gpsstyle1[feature.getGeometry().getType()];
+  }
+});
 var map = new ol.Map({
   layers: [raster,vector1,vector2,gpx1,gpx2,gpx3,gpx4,gpx5,gpx6,gpx7,gpx8,gpx9,gpx10,gpx11,gpx12,gpx13,gpx14],
   renderer: 'canvas',
