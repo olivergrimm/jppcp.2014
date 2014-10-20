@@ -170,7 +170,7 @@ var gpx15 = new ol.layer.Vector({
   }
 });
 var map = new ol.Map({
-  layers: [raster,vector1,vector2,gpx1,gpx2,gpx3,gpx4,gpx5,gpx6,gpx7,gpx8,gpx9,gpx10,gpx11,gpx12,gpx13,gpx14],
+  layers: [raster,vector1,vector2,gpx1,gpx2,gpx3,gpx4,gpx5,gpx6,gpx7,gpx8,gpx9,gpx10,gpx11,gpx12,gpx13,gpx14,gpx15],
   renderer: 'canvas',
   target: document.getElementById('map'),
   view: new ol.View2D({
