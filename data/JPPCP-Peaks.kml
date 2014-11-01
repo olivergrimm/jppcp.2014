@@ -433,10 +433,10 @@
   </Placemark>
   <Placemark>
 	<name>Herzberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">41</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141101</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.050556887905225,47.437989524444802</coordinates></Point></MultiGeometry>
   </Placemark>
@@ -451,10 +451,10 @@
   </Placemark>
   <Placemark>
 	<name>Mittlisberg</name>
-	<styleUrl>#stylered</styleUrl>
+	<styleUrl>#stylegreen</styleUrl>
 	<ExtendedData><SchemaData schemaUrl="#JPPCP">
 		<SimpleData name="PID">43</SimpleData>
-		<SimpleData name="catched">F</SimpleData>
+		<SimpleData name="catched">20141101</SimpleData>
 	</SchemaData></ExtendedData>
       <MultiGeometry><Point><coordinates>8.043098808311731,47.438516829453754</coordinates></Point></MultiGeometry>
   </Placemark>
