@@ -9,7 +9,7 @@
   <NamedLayer>
     <Name>Feststellung</Name>
     <UserStyle>
-      <Title>Violette Punkte</Title>
+      <Title>Default</Title>
       <FeatureTypeStyle>
         <Rule>
           <PointSymbolizer>
